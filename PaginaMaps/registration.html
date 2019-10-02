@@ -1,0 +1,131 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/formulario.css">
+    <title>About NYSL</title>
+  </head>
+  <body>
+    <div class="container">
+    <header class="main-header">
+      <h1>Northside Youth Soccer League</h1>
+    </header>
+    <h2>Registration Form</h2>
+    <img  src="img/nysl_logo.png" alt="logo">
+    <div class="sub-container">
+    <nav class="nav6">
+      <ul>
+        <li><a href="index.html">Home</a></li> 
+        <li><a href="aboutus.html">About NYSL</a></li> 
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="rules.html">Rules</a></li>
+        <li><a href="game_info.html">Game Inforamtion</a></li>
+        <li><a href="registration.html">Registration</a></li>
+      </ul> 
+    </nav>
+    <form class="form1" action="show_data.html" method="GET">
+    
+      <h3>Regsitration Form</h3>
+      <div class="datos"> 
+      <label for="FN">Player's First Name:</label>
+      <input type="text" id="FN" name="First_name">
+      <label for="LN">Last Name:</label>
+      <input type="text" id="LN" name="Last_name">
+      <br>
+      <label for="street">Street Adress:</label>
+      <input type="text" id="street" name="Street_Adress">
+      <br>
+      <label for="city">City</label>
+      <input type="text" id="city" name="City">
+      <label for="ZC">Zip Code:</label>
+      <input type="text" id="ZC" name="Zip_Code">
+      <br>
+      <label for="BD">Birth Date(mm/dd/yyyy):</label>
+      <input type="date" id="BD" name="Birth_Date">
+      Gender: <label for="female" class="female">Female</label> <input type="radio" id="female" name="Gender" value="Female">
+      <label for="male" class="male">Male</label><input type="radio" id="male" name="Gender" value="Male">
+      <br>
+      Grade:
+      <input type="radio" name="Grade" id="PS" value="PS">
+      <label for="PS">Pre-School</label>
+      <input type="radio" name="Grade" id="1°st" value="1°st">
+      <label for="1°st">1°st</label>
+      <input type="radio" name="Grade" id="2°nd" value="2°nd">
+      <label for="2°nd">2°nd</label>
+      <input type="radio" name="Grade" id="3°rd" value="3°rd">
+      <label for="3°rd">3°rd</label>
+      <input type="radio" name="Grade" id="4°th" value="4°th">
+      <label for="4°th">4°th</label>
+      <input type="radio" name="Grade" id="5°th" value="5°th">
+      <label for="5°th">5°th</label>
+      </div>
+      <h4>Wich elementary school do you live near?</h4>
+      <h5>Closest School:</h5>
+      <br>
+      <div class="school1">
+      <input type="radio" id="AJ" name="school" value="AJ Katzenmaier">
+      <label for="AJ">AJ Katzenmaier</label>
+      <br>
+      <input type="radio" id="Marjori" name="school" value="Marjorie P Hart">
+      <label for="Marjori">Marjorie P Hart</label>
+      <br>
+      <input type="radio" id="Greenbay" name="school" value="Greenbay">
+      <label for="Greenbay">Greenbay</label>
+      </div>
+      <div class="school2">
+      <input type="radio" id="NE" name="school2" value="North Elementary">
+      <label for="NE">North elementary</label>
+      <br>
+      <input type="radio" id="HAY" name="school2" value="Howard A Yeager">
+      <label for="HAY">Howard A Yeager</label>
+      <br>
+      <input type="radio" id="SE" name="school2" value="South Elementary">
+      <label for="SE">South Elementary</label>
+      </div>
+      <div class="possition">
+      <h4>What position(s) do you normally play? (check all that apply)</h4>
+      <br>
+      <input type="radio" name="Position" value="Forward" id="forward"><label for="forward">Forward</label>
+      <input type="radio" name="Position" value="Midfield" id="mid"><label for="mid">Midfield</label>
+      <br><input type="radio" name="Position" value="Defense" id="defense"><label for="defense">Defense</label>
+      <input type="radio" name="Position" value="Goalkeeper" id="GK"><label for="GK">Goalkeeper</label>
+      </div>
+      <h4>Uniform Size</h4>
+      <div class="size1">
+      <input type="radio" name="Uniform" value="SS" id="YS"><label for="YS">Youth Smal</label>
+      <br><input type="radio" name="Uniform" value="SM" id="SM"><label for="SM">Youth Medium</label>
+      <br><input type="radio" name="Uniform" value="SL" id="SL"><label for="SL">Youth Large</label>
+      <br><input type="radio" name="Uniform" value="S" id="S"><label for="S">Small</label>
+      </div>
+      <div class="size2">
+      <input type="radio" name="Uniform" value="M"  id="M"><label for="M">Medium</label>
+      <br><input type="radio" name="Uniform" value="L" id="L"><label for="L">Large</label>
+      <br><input type="radio" name="Uniform" value="XL" id="XL"><label for="XL">Extra-Large</label>
+      </div>
+      <div class="permission">
+      <h4>Permission to Play</h4>
+      <p>I, the parent or guardian of the minor registrant, agree that the 
+      registrant and I will abide by all the rules of the Northside Youth
+      Soccer League (NYSL). In recognizing the possibility of physical injury 
+      associated with soccer and in consideration for the “League” accepting 
+      the registrant for its soccer programs and activities, I hereby release,
+      discharge, and/or otherwise indemnify NYSL, their employees and associated
+      personnel and volunteers,including the facilities used for practices and 
+      games, against any claim by or on behalf of the registrant as a result of
+      the registrant’s participation in the programand/orbeing transported to 
+      or from NYSL sponsored activities,which transportation
+      </p>
+      <p>By entering your name below, I herebyagree andauthorizethe above.In addition, by 
+      signing below, I also acknowledge that I have read the cancellation policy
+      and agree to its terms.</p>
+      <label for="sign">Parent/Guardian Signature:</label><input id="sign" type="text" name="Sign" value="Sign"> 
+      <label for="Date">Date:</label><input id="Date" type="date" name="Date" >
+      </div>
+      <button type="submit" value="Submit">Submit</button>
+  </form>
+
+    </div>
+    </div>
+  </body>
+  </html>
